@@ -73,7 +73,7 @@ Limits              -> Limits of the "ratting level" (Krabbers please ! <--> Alm
 RefreshEvery        -> Refresh the process after X minutes
 DaysToKeepHistory   -> Number of days to keep the history into the SQLite database
 ActivateStats       -> Activate/Desactivate the "Stats"
-Systems             -> The system(s) to track (you can add as many has you want) [Item1 = System Id] [Item2 = System Label]
+Systems             -> The system(s) to track (you can add as many as you want) [Item1 = System Id] [Item2 = System Label]
 ```
 
 ### Dependencies
