@@ -1,4 +1,7 @@
-﻿namespace EveRAT.Models;
+﻿using System;
+using System.Collections.Generic;
+
+namespace EveRAT.Models;
 
 public class BotSettings
 {

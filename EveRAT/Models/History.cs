@@ -1,4 +1,6 @@
-﻿namespace EveRAT.Models;
+﻿using System;
+
+namespace EveRAT.Models;
 
 public partial class History
 {

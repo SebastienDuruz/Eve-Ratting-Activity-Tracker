@@ -1,6 +1,9 @@
 ﻿/// Author : Sébastien Duruz
 /// Date : 03.05.2023
 
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using ESI.NET;
 using ESI.NET.Enumerations;
 using ESI.NET.Models.Universe;

@@ -1,6 +1,8 @@
 ﻿/// Author : Sébastien Duruz
 /// Date : 03.05.2023
 
+using System;
+using System.IO;
 using EveRAT.Models;
 using Newtonsoft.Json;
 

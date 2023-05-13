@@ -1,6 +1,7 @@
 ﻿/// Author : Sébastien Duruz
 /// Date : 26.04.2023
 
+using System.Threading.Tasks;
 using EveRAT.Data;
 
 /// <summary>
@@ -25,7 +26,7 @@ public class Program
     /// </summary>
     /// <param name="host">Host of the bot</param>
     /// <returns>Result of the task</returns>
-    public async Task RunAsync()
+    private async Task RunAsync()
     {
         DiscordBot = new EveRatBot();
         await DiscordBot.StartBot();

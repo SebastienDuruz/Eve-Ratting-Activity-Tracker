@@ -5,8 +5,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <RootNamespace>MIGoatChecker</RootNamespace>
+        <RootNamespace>EveRAT</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -23,8 +22,11 @@
     </ItemGroup>
     
     <ItemGroup>
-        <None Include="EveRAT">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
+        <Content Include="EveRAT.db">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="botSettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 </Project>
