@@ -83,5 +83,8 @@ Ubuntu : `sudo apt install wkhtmltoimage`
 
 Fedora : `sudo dnf install wkhtmltoimage`
 
+### Start program
+Start the program by executing the **EveRAT** executable file.
+
 ## Licence
 This software is open-sourced software licensed under [GNU General Public License v3.0](LICENSE)
