@@ -1,0 +1,22 @@
+{
+  "BotToken": "Discord_bot_token",
+  "ClientId": "Eve_app_clientId",
+  "SecretKey": "Eve_app_securityKey",
+  "CallbackUrl": "Eve_app_callbackUrl",
+  "UserAgent": "Eve_app_userAgent",
+  "DiscordServerId": 0,
+  "DiscordChannelId": 0,
+  "Limits": [
+    300,
+    500
+  ],
+  "RefreshEvery": 5,
+  "DaysToKeepHistory": 20,
+  "ActivateStats": false,
+  "Systems": [
+    {
+      "Item1": 30002172,
+      "Item2": "W4E-IT"
+    }
+  ]
+}
