@@ -77,11 +77,7 @@ Systems             -> The system(s) to track (you can add as many as you want) 
 ```
 
 ### Dependencies
-For **Linux** machines make sure **wkhtmltoimage** is installed :
-
-Ubuntu : `sudo apt install wkhtmltoimage`
-
-Fedora : `sudo dnf install wkhtmltoimage`
+For **Linux** machines make sure **wkhtmltoimage** is installed (commonly contained in **wkhtmltopdf** package)
 
 ### Start program
 Start the program by executing the **EveRAT** executable file.
