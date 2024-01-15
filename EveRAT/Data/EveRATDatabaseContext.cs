@@ -20,7 +20,7 @@ public partial class EveRATDatabaseContext : DbContext
     public virtual DbSet<History> Histories { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlite("Data Source=EveRAT.db;");
+        => optionsBuilder.UseSqlite("Data Source=db/EveRAT.db;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

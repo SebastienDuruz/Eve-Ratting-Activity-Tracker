@@ -222,7 +222,7 @@ namespace EveRAT.Data
                             await ClearDatabase();
 
                         DateTime now = DateTime.Now;
-                        while (DateTime.Now.Subtract(now).Minutes < _botSettings.BotSettingsValues.RefreshEvery)
+                        while (DateTime.Now.Subtract(now).TotalMinutes < _botSettings.BotSettingsValues.RefreshEvery)
                         {
                             Thread.Sleep(1000);
                             // don't do anything for X minutes before restarting process
