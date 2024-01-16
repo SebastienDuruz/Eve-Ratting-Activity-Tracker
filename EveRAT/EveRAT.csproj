@@ -22,9 +22,6 @@
     </ItemGroup>
     
     <ItemGroup>
-        <Content Include="EveRAT.db">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </Content>
         <Content Include="botSettings.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>

@@ -1,5 +1,5 @@
-# Eve-Ratting-Activity-Tracker
-A simple discord bot that reports the recent ratting activity on a given list of NS system.
+# Eve-ADM-tracker
+A simple Eve-Online discord bot that reports the recent ratting activity on a given list of NS system.
 
 The information are extracted from the public data available on [Eve ESI](https://esi.evetech.net/ui/).
 
@@ -74,6 +74,17 @@ RefreshEvery        -> Refresh the process after X minutes
 DaysToKeepHistory   -> Number of days to keep the history into the SQLite database
 ActivateStats       -> Activate/Desactivate the "Stats"
 Systems             -> The system(s) to track (you can add as many as you want) [Item1 = System Id] [Item2 = System Label]
+```
+
+### Docker & Docker compose : 
+
+```
+docker run -v ./db:/app/db --name EveRAT tag-image
+```
+Or with docker compose : 
+
+```
+docker compose up -d 
 ```
 
 ### Dependencies

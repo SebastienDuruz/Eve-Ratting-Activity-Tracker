@@ -1,0 +1,6 @@
+services:  
+  eve-rat:
+    build: .
+    container_name: EveRAT
+    volumes:
+      - ./db:/app/db
