@@ -1,6 +1,9 @@
 FROM mcr.microsoft.com/dotnet/runtime:7.0 AS base
 WORKDIR /app
 
+RUN apt-get update
+RUN apt-get install wkhtmltopdf -y
+
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["EveRAT.csproj", "./"]
