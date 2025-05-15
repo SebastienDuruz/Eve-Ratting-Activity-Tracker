@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>EveRAT</RootNamespace>
@@ -24,6 +24,10 @@
     <ItemGroup>
         <Content Include="botSettings.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="db\EveRAT.db" />
+        <Content Include="db\EveRAT.db">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
 </Project>
